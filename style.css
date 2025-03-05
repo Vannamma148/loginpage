@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../glass/bg.avif);
+    background-image: url(bg.avif);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -25,14 +25,7 @@ body{
     height: 30px;
     margin: 20px 0;
 }
-.dot div{
-    /* font-size: 12px; */
-    background-color: white;
-    color: #ffffff;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-}
+
 .active{
     background-color: #ffffff;
     color: black;
