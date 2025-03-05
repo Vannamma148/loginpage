@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(bg.avif);
+    background-image: url(../glass/bg.avif);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -16,10 +16,7 @@ body{
     "XROT" 0,
     "YROT" 0;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-  }
+
 /* nav bar */
 .nav{
     display: flex;
@@ -94,7 +91,7 @@ h1, h2, h3, h4, h5, h6,p {
     border-radius: 24px;
     backdrop-filter: blur(4px);
     width: 600px;
-    height: 80vh;
+    height: 600px;
     padding: 10px 20px;
 }
 .right{
@@ -105,7 +102,7 @@ h1, h2, h3, h4, h5, h6,p {
     border-radius: 24px;
     backdrop-filter: blur(4px);
     width: 600px;
-    height: 80vh;
+    height: 600px;
 }
 button{
     width: 120px;
@@ -139,10 +136,7 @@ button:hover{
     justify-content: end;
     gap: 4px;
     align-items: end;
-
     margin-top: 50px;
-
-
 }
 
 .child{
