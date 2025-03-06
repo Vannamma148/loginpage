@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6,p {
     backdrop-filter: blur(4px);
     width: 600px;
     height: 600px;
+    padding:0 10px;
 }
 button{
     width: 120px;
